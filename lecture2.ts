@@ -1,0 +1,7 @@
+//TypeScript Execution Journey
+// TS code -> lexer -> parser -> Binder -> Checker -> Emmitter -> .js, d.ts, .map
+//Lexer : It breaks the source code into tokens, which are the smallest units of meaning in the code. For example, in the code `let x = 5;`, the lexer would break it into tokens like `let`, `x`, `=`, `5`, and `;`.
+//Parser : It takes the tokens produced by the lexer and builds an Abstract Syntax Tree (AST) that represents the structure of the code. The AST is a hierarchical representation of the code that captures its syntax and semantics.
+//Binder : It resolves names and symbols in the code, such as variable names, function names, and type names. The binder creates a symbol table that maps these names to their corresponding declarations and definitions.
+//Checker : It performs type checking on the code, ensuring that the types of variables, function parameters, and return values are consistent with their declarations. The checker also checks for other semantic errors, such as unreachable code or incorrect use of language features.
+//Emmitter : It generates the output files based on the AST and the results of the previous stages. This typically includes JavaScript files (.js), declaration files (.d.ts), and source map files (.map) that help with debugging.
