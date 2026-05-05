@@ -9,7 +9,7 @@
 let drink = "chai";
 let cups = Math.random() > 0.5 ? 10:5;
 
-//Type Annotation: Explicit typing means you tell TypeScript exactly what type a variable should be
+//Explixit Type Annotation: Explicit typing means you tell TypeScript exactly what type a variable should be
 let chaiFlaovour: String = "masala chai"  //string
 chaiFlaovour = "Ginger Tea"
 
