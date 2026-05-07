@@ -25,3 +25,6 @@ for(let order of orders) {
     currentorder = "11";
 }
 console.log(currentorder);
+
+ 
+//Unkonown Type: The unknown type is similar to any, but safer because it forces you to perform some type of checking before performing most operations on values of type unknown.
