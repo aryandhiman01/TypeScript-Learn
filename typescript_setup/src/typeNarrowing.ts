@@ -1,5 +1,9 @@
 //Type Guards: Type guards are used to narrow down the type of a variable within a conditional block. This allows you to perform operations on the variable that are specific to its narrowed type.
 
+//typeof Type Guards : The typeof operator is a built-in type guard that checks the type of a primitive value at runtime.
+
+//instanceof Type Guards : The instanceof operator checks if an object is an instance of a specific class or constructor function.
+
 function getChai(kind: string | number){
     if(typeof kind === 'string'){
         return `Making ${kind} chai...`
