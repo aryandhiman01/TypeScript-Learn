@@ -37,3 +37,33 @@ newValue = 2.5
 if(typeof newValue === "string") {
     newValue.toUpperCase();
 }
+
+
+//try-catch block
+
+try{
+
+} catch (error){
+    if(error instanceof Error) {
+        console.log(error.message);
+    }
+    console.log("Error", error);
+}
+
+//never type: The never type represents the type of values that never occur.
+// here in the example there are two roles, so except these two roles no other role is will occur
+type Role = "admin" | "user";
+
+function redirectBasedonRole(role: Role): void {
+    if(role === "admin") {
+        console.log("Redirecting to admin dashboard");
+    }
+    if(role === "user") {
+        console.log("Redirecting to user dashboard");
+    }
+}
+
+//functions that return nothing are also of never type
+function neverReturn(): never{
+    while(true) {}
+}
