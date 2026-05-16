@@ -197,6 +197,7 @@ Overusing `any` defeats the purpose of using TypeScript. Prefer more specific ty
 
 ```
 Typescript/
+├── README.md                 # This documentation
 ├── Basics_of_TS/
 │   ├── baisc.ts              # Basic TypeScript and JS comparison
 │   └── lecture2.ts           # TypeScript execution journey
@@ -207,7 +208,9 @@ Typescript/
         ├── index.ts          # Basic greeting function
         ├── typesInTS.ts      # Type annotations and inference
         ├── typeNarrowing.ts  # Type narrowing techniques
-        └── unionAndany.ts    # Union types and any type
+        ├── unionAndany.ts    # Union types and any type
+        ├── interfcaes.ts     # Interfaces and their usage
+        └── moreTypes.ts      # Additional type concepts
 ```
 
 ---
